@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentines</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Password Lock Screen -->
+    <div id="lock-screen" class="screen">
+        <div class="lock-container">
+            <h1>Password is the answer to this question:</h1>
+            <h2>"What bean am I?" (no caps or spaces) </h2> 
+            <h1></h1>
+            <input type="password" id="password-input" placeholder="Enter password..." autofocus>
+            <button id="unlock-btn">Unlock</button>
+            <p id="error-message" class="hidden">Wrong password, try again!</p>
+        </div>
+    </div>
+
+    <!-- Main Content (hidden until unlocked) -->
+    <div id="main-content" class="screen hidden">
+        <h1>Happy Valentine's to my Husband!</h1>
+
+        <div id="love-box" class="love-box">
+            <p class="box-label">Things I Love About You</p>
+            <p class="box-hint">Click me!</p>
+        </div>
+
+        <div id="message-display" class="message-display hidden">
+            <p id="love-message"></p>
+            <button id="close-message">Close</button>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
