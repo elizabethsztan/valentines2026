@@ -36,7 +36,7 @@ export const loveMessages = [
     "You make really good pasta and steak",
     "You do all the washing - thank you I'm so grateful",
     "You dress really well",
-    "Your legs are big (even if your squat isn't hehe)"
+    "Your legs are big (even if your squat isn't hehe)",
     "I feel safe around you",
     "You're actually very funny (haha- actually)"
 ];
